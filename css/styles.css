@@ -344,6 +344,9 @@
   .h-\[3600px\] {
     height: 3600px;
   }
+  .h-px {
+    height: 1px;
+  }
   .w-9 {
     width: calc(var(--spacing) * 9);
   }
@@ -364,6 +367,9 @@
   }
   .max-w-5xl {
     max-width: var(--container-5xl);
+  }
+  .max-w-\[320px\] {
+    max-width: 320px;
   }
   .max-w-\[640px\] {
     max-width: 640px;
@@ -461,8 +467,14 @@
       border-color: color-mix(in oklab, var(--color-white) 40%, transparent);
     }
   }
+  .bg-\(--line\) {
+    background-color: var(--line);
+  }
   .bg-\[\#2f6b3f\] {
     background-color: #2f6b3f;
+  }
+  .bg-\[var\(--line\)\] {
+    background-color: var(--line);
   }
   .bg-black {
     background-color: var(--color-black);
@@ -505,6 +517,9 @@
   }
   .px-6 {
     padding-inline: calc(var(--spacing) * 6);
+  }
+  .px-8 {
+    padding-inline: calc(var(--spacing) * 8);
   }
   .py-1 {
     padding-block: calc(var(--spacing) * 1);
@@ -588,6 +603,12 @@
     --tw-tracking: var(--tracking-wide);
     letter-spacing: var(--tracking-wide);
   }
+  .text-\(--ink-1\) {
+    color: var(--ink-1);
+  }
+  .text-\(--ink-2\) {
+    color: var(--ink-2);
+  }
   .text-\[var\(--ink-1\)\] {
     color: var(--ink-1);
   }
@@ -627,6 +648,9 @@
   .underline-offset-2 {
     text-underline-offset: 2px;
   }
+  .underline-offset-4 {
+    text-underline-offset: 4px;
+  }
   .opacity-90 {
     opacity: 90%;
   }
@@ -664,6 +688,13 @@
     --tw-duration: 200ms;
     transition-duration: 200ms;
   }
+  .hover\:bg-\[\#275c36\] {
+    &:hover {
+      @media (hover: hover) {
+        background-color: #275c36;
+      }
+    }
+  }
   .hover\:bg-white\/10 {
     &:hover {
       @media (hover: hover) {
@@ -671,6 +702,20 @@
         @supports (color: color-mix(in lab, red, red)) {
           background-color: color-mix(in oklab, var(--color-white) 10%, transparent);
         }
+      }
+    }
+  }
+  .hover\:text-\(--ink-1\) {
+    &:hover {
+      @media (hover: hover) {
+        color: var(--ink-1);
+      }
+    }
+  }
+  .hover\:text-\[var\(--ink-1\)\] {
+    &:hover {
+      @media (hover: hover) {
+        color: var(--ink-1);
       }
     }
   }
