@@ -60,6 +60,19 @@ body {
   background: var(--paper);
 }
 
+details > summary {
+        list-style: none;
+        cursor: pointer;
+      }
+
+details > summary::-webkit-details-marker {
+  display: none;
+}
+
+details[open] .proof-arrow {
+  transform: rotate(180deg);
+}
+
 /* Layout helpers */
 .container {
   width: min(100% - 2.5rem, var(--container));
