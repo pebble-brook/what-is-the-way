@@ -1,0 +1,610 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>FAQ | What Is The Way</title>
+    <meta
+      name="description"
+      content="Frequently asked questions — common objections and short scripture-first answers."
+    />
+
+    <!-- Google Fonts: Antonio -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Antonio:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="./../css/styles.css" />
+  </head>
+
+  <body>
+    <!-- Header -->
+    <header
+      id="top"
+      class="site-header fixed inset-x-0 top-0 z-20 text-white transition-all duration-200"
+    >
+      <div
+        class="mx-auto w-full max-w-[1120px] px-5 flex items-center justify-between py-3"
+      >
+        <!-- Logo spacer (keeps nav alignment without showing logo) -->
+        <div class="h-[72px] w-[300px] flex items-center gap-6">
+          <a
+            href="/"
+            class="flex items-center tracking-wide text-[1.15rem] text-white/90 hover:text-white transition nav-top-level"
+            style="font-family: 'Libre Baskerville', serif"
+          >
+            What Is The Way?
+          </a>
+        </div>
+
+        <!-- Right side of header -->
+        <div class="flex items-center gap-6">
+          <!-- Desktop nav -->
+          <nav aria-label="Primary" class="hidden md:block">
+            <ul class="flex items-center gap-7 text-[0.95rem] font-medium">
+              <li><a href="./../the-way" class="nav-top-level">The Way</a></li>
+              <li>
+                <a href="./../the-natsarim" class="nav-top-level"
+                  >The Natsarim</a
+                >
+              </li>
+              <li><a href="./../beliefs" class="nav-top-level">Beliefs</a></li>
+              <li>
+                <a href="./../how-to-start" class="nav-top-level"
+                  >How To Start</a
+                >
+              </li>
+              <li><a href="/faq" class="nav-top-level">FAQ</a></li>
+              <li><a href="./../about" class="nav-top-level">About</a></li>
+            </ul>
+          </nav>
+
+          <!-- Mobile toggle button -->
+          <button
+            id="navToggle"
+            class="md:hidden inline-flex h-9 w-9 items-center justify-center rounded-full border border-white/40 text-white text-xl"
+            aria-label="Toggle navigation"
+            aria-expanded="false"
+          >
+            ☰
+          </button>
+        </div>
+
+        <!-- Mobile nav panel -->
+        <nav
+          id="mobileNav"
+          aria-label="Primary mobile"
+          class="mt-3 hidden flex-col gap-3 rounded-2xl bg-black/70 p-4 text-sm md:hidden"
+        >
+          <a
+            href="./../the-way"
+            class="rounded-xl px-3 py-2 text-[0.95rem] text-gray-100 hover:bg-white/10 hover:text-white"
+          >
+            The Way
+          </a>
+          <a
+            href="./../the-natsarim"
+            class="rounded-xl px-3 py-2 text-[0.95rem] text-gray-100 hover:bg-white/10 hover:text-white"
+          >
+            The Natsarim
+          </a>
+          <a
+            href="./../beliefs"
+            class="rounded-xl px-3 py-2 text-[0.95rem] text-gray-100 hover:bg-white/10 hover:text-white"
+          >
+            Beliefs
+          </a>
+          <a
+            href="./../how-to-start"
+            class="rounded-xl px-3 py-2 text-[0.95rem] text-gray-100 hover:bg-white/10 hover:text-white"
+          >
+            How To Start
+          </a>
+          <a
+            href="./../faq/"
+            class="rounded-xl px-3 py-2 text-[0.95rem] text-gray-100 hover:bg-white/10 hover:text-white"
+          >
+            FAQ
+          </a>
+          <a
+            href="./../about"
+            class="rounded-xl px-3 py-2 text-[0.95rem] text-gray-100 hover:bg-white/10 hover:text-white"
+          >
+            About
+          </a>
+        </nav>
+      </div>
+    </header>
+
+    <main id="top">
+      <section class="section" id="faq">
+        <!-- Header image -->
+        <img
+          src="./../assets/images/faq_header.png"
+          alt="Minimalist parchment illustration for the FAQ page"
+          class="mx-auto h-[220px] w-[92%] sm:w-[85%] md:h-80 md:w-full object-cover object-center opacity-90"
+        />
+
+        <div class="mx-auto w-full max-w-[1120px] px-5 mt-10">
+          <header class="mx-auto mb-10 max-w-[720px]">
+            <h1 class="mb-2 text-3xl text-(--ink-2)">FAQ</h1>
+
+            <p class="text-[1.02rem] leading-relaxed text-(--ink-1)">
+              This page isn’t meant to answer every question. It addresses a few
+              common questions many Christians naturally have when encountering
+              Torah-obedient faith for the first time.
+            </p>
+
+            <p class="mt-4">
+              Each response is intentionally brief and grounded in Scripture, so
+              you can slow down, read the text carefully, and consider what the
+              Bible itself says.
+            </p>
+
+            <p class="mt-4 text-[0.98rem] text-(--muted)">
+              If you are new here, we recommend you start with
+              <a
+                href="./../the-way"
+                class="underline underline-offset-4 hover:text-(--ink-1)"
+                >The Way</a
+              >
+              or
+              <a
+                href="./../beliefs"
+                class="underline underline-offset-4 hover:text-(--ink-1)"
+                >Beliefs</a
+              >.
+            </p>
+          </header>
+
+          <div class="mx-auto max-w-[720px] space-y-4">
+            <!-- FAQ item 1 -->
+            <details
+              class="group rounded-2xl border border-black/10 bg-white/70 p-5"
+            >
+              <summary
+                class="flex cursor-pointer list-none items-center justify-between gap-4"
+              >
+                <span class="text-[1.02rem] font-semibold text-(--ink-2)">
+                  Didn’t Yeshua abolish the Law?
+                </span>
+                <span
+                  aria-hidden="true"
+                  class="text-(--muted) transition-transform duration-200 group-open:rotate-180"
+                  >▾</span
+                >
+              </summary>
+
+              <div
+                class="mt-4 space-y-3 text-[0.98rem] leading-relaxed text-(--ink-1)"
+              >
+                <p>
+                  The claim that Yeshua abolished Torah is the opposite of what
+                  He said. He warned His followers not to believe He came to
+                  destroy Torah and the Prophets, and He tied “greatness” in the
+                  kingdom to doing and teaching the commandments.
+                </p>
+
+                <ul class="list-disc pl-5 space-y-2 text-[0.96rem]">
+                  <li>
+                    <strong>Matthew 5:17–19</strong> — Yeshua rejects abolition
+                    and affirms obedience.
+                  </li>
+                  <li>
+                    <strong>Deuteronomy 12:32</strong> — do not add to or remove
+                    from Yahweh’s commands.
+                  </li>
+                </ul>
+              </div>
+            </details>
+
+            <!-- FAQ item 2 -->
+            <details
+              class="group rounded-2xl border border-black/10 bg-white/70 p-5"
+            >
+              <summary
+                class="flex cursor-pointer list-none items-center justify-between gap-4"
+              >
+                <span class="text-[1.02rem] font-semibold text-(--ink-2)">
+                  No one can keep the Torah — that’s why we needed Jesus.
+                </span>
+                <span
+                  aria-hidden="true"
+                  class="text-(--muted) transition-transform duration-200 group-open:rotate-180"
+                  >▾</span
+                >
+              </summary>
+
+              <div
+                class="mt-4 space-y-3 text-[0.98rem] leading-relaxed text-(--ink-1)"
+              >
+                <p>
+                  Scripture does not present Torah as a failed system that
+                  needed to be removed. Torah itself explicitly says that
+                  Yahweh’s instructions are not too difficult or unreachable.
+                </p>
+                <p>
+                  Scripture also records multiple individuals who are described
+                  as walking blamelessly or righteously according to Yahweh’s
+                  commandments.
+                </p>
+                <p>
+                  The problem is not Torah — the problem is the human heart. The
+                  response of faith in Scripture is not lawlessness, but
+                  returning to Yahweh’s way in repentance, obedience, and trust.
+                </p>
+
+                <ul class="list-disc pl-5 space-y-2 text-[0.96rem]">
+                  <li>
+                    <strong>Deuteronomy 30:11–14</strong> — Torah is not too
+                    difficult
+                  </li>
+                  <li>
+                    <strong>Luke 1:5–6</strong> — Zacharias and Elizabeth
+                    (parents of John the Baptist) kept Torah blamelessly
+                  </li>
+                  <li>
+                    <strong>Genesis 6:9</strong> — Noah walked blamelessly
+                  </li>
+                  <li>
+                    <strong>Job 1:1</strong> — Job was blameless and upright
+                  </li>
+                  <li>
+                    <strong>Matthew 5:17–19</strong> — Yeshua affirms Torah
+                    rather than dismissing it.
+                  </li>
+                  <li>
+                    <strong>Romans 3:31</strong> — faith establishes Torah, it
+                    does not overthrow it.
+                  </li>
+                  <li>
+                    <strong>1 John 2:3–6</strong> — knowing Him is tied to
+                    walking as He walked.
+                  </li>
+                </ul>
+              </div>
+            </details>
+
+            <!-- FAQ item 3 -->
+            <details
+              class="group rounded-2xl border border-black/10 bg-white/70 p-5"
+            >
+              <summary
+                class="flex cursor-pointer list-none items-center justify-between gap-4"
+              >
+                <span class="text-[1.02rem] font-semibold text-(--ink-2)">
+                  Isn’t this salvation by works?
+                </span>
+                <span
+                  aria-hidden="true"
+                  class="text-(--muted) transition-transform duration-200 group-open:rotate-180"
+                  >▾</span
+                >
+              </summary>
+
+              <div
+                class="mt-4 space-y-3 text-[0.98rem] leading-relaxed text-(--ink-1)"
+              >
+                <p>
+                  The Way does not teach that obedience purchases salvation. It
+                  teaches the biblical order: covenant faith produces obedience.
+                  Scripture consistently treats “faith” as faithful allegiance
+                  that shows up in how a person lives.
+                </p>
+
+                <ul class="list-disc pl-5 space-y-2 text-[0.96rem]">
+                  <li>
+                    <strong>James 2</strong> — faith without works is dead.
+                  </li>
+                  <li>
+                    <strong>Matthew 7:21–23</strong> — “Lord, Lord” without
+                    obedience is rejected.
+                  </li>
+                  <li>
+                    <strong>Romans 3:31</strong> — faith establishes Torah.
+                  </li>
+                </ul>
+              </div>
+            </details>
+
+            <!-- FAQ item 4 -->
+            <details
+              class="group rounded-2xl border border-black/10 bg-white/70 p-5"
+            >
+              <summary
+                class="flex cursor-pointer list-none items-center justify-between gap-4"
+              >
+                <span class="text-[1.02rem] font-semibold text-(--ink-2)">
+                  Wasn’t Torah only for Israel back then?
+                </span>
+                <span
+                  aria-hidden="true"
+                  class="text-(--muted) transition-transform duration-200 group-open:rotate-180"
+                  >▾</span
+                >
+              </summary>
+
+              <div
+                class="mt-4 space-y-3 text-[0.98rem] leading-relaxed text-(--ink-1)"
+              >
+                <p>
+                  Scripture frames Torah as covenant instruction for Yahweh’s
+                  people. The biblical storyline does not treat Israel as a side
+                  topic; it treats Israel as central. The question becomes: what
+                  is our relationship to Israel in Messiah?
+                </p>
+
+                <p class="text-[0.96rem] text-(--muted)">
+                  Scripture emphasizes covenant identity and Gentiles being
+                  brought near, rather than inventing a separate “Gentile
+                  church” identity.
+                </p>
+
+                <ul class="list-disc pl-5 space-y-2 text-[0.96rem]">
+                  <li>
+                    <strong>Ephesians 2</strong> — Gentiles who were “far off”
+                    are brought near and made fellow citizens.
+                  </li>
+                  <li>
+                    <strong>Exodus 3</strong> — Yahweh identifies Himself as the
+                    God of Israel.
+                  </li>
+                </ul>
+              </div>
+            </details>
+
+            <!-- FAQ item 5 -->
+            <details
+              class="group rounded-2xl border border-black/10 bg-white/70 p-5"
+            >
+              <summary
+                class="flex cursor-pointer list-none items-center justify-between gap-4"
+              >
+                <span class="text-[1.02rem] font-semibold text-(--ink-2)">
+                  But Paul (and Galatians) taught we’re not under the Law.
+                </span>
+                <span
+                  aria-hidden="true"
+                  class="text-(--muted) transition-transform duration-200 group-open:rotate-180"
+                  >▾</span
+                >
+              </summary>
+
+              <div
+                class="mt-4 space-y-3 text-[0.98rem] leading-relaxed text-(--ink-1)"
+              >
+                <p>
+                  Paul did not teach against Torah. He argued against misuse of
+                  Torah (especially as a basis for justification), while
+                  personally living as Torah-observant and publicly
+                  demonstrating it when accused.
+                </p>
+
+                <ul class="list-disc pl-5 space-y-2 text-[0.96rem]">
+                  <li>
+                    <strong>Acts 21:24–26</strong> — Paul purifies and
+                    participates in Temple-related vows to prove he keeps Torah.
+                  </li>
+                  <li>
+                    <strong>Acts 24:14</strong> — Paul describes his faith as
+                    “The Way” and affirms belief in Torah and the Prophets.
+                  </li>
+                  <li>
+                    <strong>Romans 3:31</strong> — faith establishes Torah.
+                  </li>
+                </ul>
+
+                <div
+                  class="mt-3 rounded-xl border border-black/10 bg-white/60 p-4"
+                >
+                  <p class="text-[0.95rem] text-(--muted)">
+                    “Have you ever read Galatians?" is usually asked when a
+                    verse is pulled out of Paul’s argument and used as a
+                    shortcut instead of reading the whole letter in context.
+                  </p>
+                </div>
+              </div>
+            </details>
+
+            <!-- FAQ item 6 -->
+            <details
+              class="group rounded-2xl border border-black/10 bg-white/70 p-5"
+            >
+              <summary
+                class="flex cursor-pointer list-none items-center justify-between gap-4"
+              >
+                <span class="text-[1.02rem] font-semibold text-(--ink-2)">
+                  Didn’t Mark 7 / Acts 10 abolish clean and unclean foods?
+                </span>
+                <span
+                  aria-hidden="true"
+                  class="text-(--muted) transition-transform duration-200 group-open:rotate-180"
+                  >▾</span
+                >
+              </summary>
+
+              <div
+                class="mt-4 space-y-3 text-[0.98rem] leading-relaxed text-(--ink-1)"
+              >
+                <p>
+                  Torah distinguishes clean and unclean animals, and the common
+                  Christian reading of Mark 7 and Acts 10 is often assumed
+                  rather than proven. The dietary instructions remain
+                  Torah-defined.
+                </p>
+
+                <ul class="list-disc pl-5 space-y-2 text-[0.96rem]">
+                  <li>
+                    <strong>Leviticus 11</strong> — clean and unclean animals.
+                  </li>
+                  <li>
+                    <strong>Deuteronomy 14</strong> — clean and unclean animals.
+                  </li>
+                  <li>
+                    <strong>Mark 7</strong> — frequently misapplied as a blanket
+                    abolition.
+                  </li>
+                  <li>
+                    <strong>Acts 10</strong> — frequently misread as food rather
+                    than its stated point.
+                  </li>
+                </ul>
+              </div>
+            </details>
+
+            <!-- FAQ item 7 -->
+            <details
+              class="group rounded-2xl border border-black/10 bg-white/70 p-5"
+            >
+              <summary
+                class="flex cursor-pointer list-none items-center justify-between gap-4"
+              >
+                <span class="text-[1.02rem] font-semibold text-(--ink-2)">
+                  Are you just Christians who decided to be Jewish?
+                </span>
+                <span
+                  aria-hidden="true"
+                  class="text-(--muted) transition-transform duration-200 group-open:rotate-180"
+                  >▾</span
+                >
+              </summary>
+
+              <div
+                class="mt-4 space-y-3 text-[0.98rem] leading-relaxed text-(--ink-1)"
+              >
+                <p>
+                  The earliest disciples were known as followers of
+                  <em>The Way</em>, and they did not describe themselves as a
+                  new “Christian religion.” The issue is covenant faithfulness
+                  to Yahweh and His Messiah—not adopting an ethnic identity or
+                  submitting to rabbinic tradition.
+                </p>
+
+                <ul class="list-disc pl-5 space-y-2 text-[0.96rem]">
+                  <li>
+                    <strong>Acts 24:5</strong> — the “sect of the Nazarenes”
+                    (Natsarim) appears in the text.
+                  </li>
+                  <li>
+                    <strong>Acts 24:14</strong> — Paul says he worships
+                    according to “The Way,” believing Torah and the Prophets.
+                  </li>
+                  <li>
+                    <strong>Acts 11:26</strong> — helps frame when/how
+                    “Christian” appears in the narrative.
+                  </li>
+                </ul>
+              </div>
+            </details>
+
+            <!-- FAQ item 8 -->
+            <details
+              class="group rounded-2xl border border-black/10 bg-white/70 p-5"
+            >
+              <summary
+                class="flex cursor-pointer list-none items-center justify-between gap-4"
+              >
+                <span class="text-[1.02rem] font-semibold text-(--ink-2)">
+                  Why reject the Trinity?
+                </span>
+                <span
+                  aria-hidden="true"
+                  class="text-(--muted) transition-transform duration-200 group-open:rotate-180"
+                  >▾</span
+                >
+              </summary>
+
+              <div
+                class="mt-4 space-y-3 text-[0.98rem] leading-relaxed text-(--ink-1)"
+              >
+                <p>
+                  Yahweh is one, undivided, and the Shema is foundational.
+                  Yeshua affirmed the Shema rather than introducing a new
+                  doctrine of a triune God. The Trinity is a later, man-made
+                  doctrine that developed through church councils not scripture.
+                  Scripture describes Yeshua as the <em>agent of Yahweh</em>.
+                </p>
+
+                <ul class="list-disc pl-5 space-y-2 text-[0.96rem]">
+                  <li>
+                    <strong>Deuteronomy 6:4</strong> — the Shema: “Yahweh is
+                    One.”
+                  </li>
+                  <li>
+                    <strong>Mark 12:28–34</strong> — Yeshua affirms the Shema as
+                    foundational.
+                  </li>
+                  <li>
+                    <strong>Isaiah</strong> — Yahweh declares there is no other
+                    beside Him.
+                  </li>
+                </ul>
+              </div>
+            </details>
+
+            <!-- Continue -->
+            <section class="pt-6">
+              <div class="h-px w-full bg-black/10 mb-6"></div>
+
+              <p class="text-[0.98rem] text-(--muted)">
+                Ready to read the framework instead of just the objections?
+              </p>
+
+              <a
+                href="./../the-way"
+                class="mt-3 inline-flex text-sm font-medium tracking-wide text-(--ink-2) underline underline-offset-4 hover:text-(--ink-1)"
+              >
+                Start with “The Way” →
+              </a>
+            </section>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-slate-950 text-slate-200 mt-8">
+      <div class="max-w-5xl mx-auto px-4 py-8">
+        <div
+          class="flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4"
+        >
+          <div>
+            <div class="flex items-center gap-2 mb-1">
+              <span class="font-semibold text-sm">What Is The Way</span>
+            </div>
+            <p class="text-xs text-slate-400">
+              © <span id="year"></span> What Is The Way. A teaching resource
+              dedicated to restoring the original Way described in Scripture.
+            </p>
+            <p class="text-xs text-slate-500 mt-1">
+              Overseen by
+              <a
+                href="https://watchmenofisrael.org"
+                class="text-slate-300 hover:text-slate-100 underline-offset-2 hover:underline"
+                target="_blank"
+                rel="noopener"
+              >
+                Watchmen of Israel
+              </a>
+            </p>
+          </div>
+
+          <p class="text-xs text-slate-400">Scripture before tradition.</p>
+        </div>
+      </div>
+    </footer>
+
+    <script>
+      document.getElementById("year").textContent = new Date().getFullYear();
+    </script>
+    <script src="./../js/scroll.js"></script>
+    <script src="./../js/nav.js"></script>
+  </body>
+</html>
